@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Tap Shot</title>
+  </head>
+  <body style="margin: 0px; text-align: center">
+    <canvas id="unity-canvas" style="width: 100vw; height: 100vh; display: block; background: url('Build/Web.jpg') center / cover"></canvas>
+    <script src="Build/Web.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/Web.data",
+        frameworkUrl: "Build/Web.framework.js",
+        codeUrl: "Build/Web.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Jawchewa",
+        productName: "Tap Shot",
+        productVersion: "1.0",
+      });
+    </script>
+  </body>
+</html>

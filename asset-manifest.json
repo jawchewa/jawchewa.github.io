@@ -1,22 +1,3 @@
-{
-  "files": {
-    "main.css": "/static/css/main.a6080415.chunk.css",
-    "main.js": "/static/js/main.35f03fa9.chunk.js",
-    "main.js.map": "/static/js/main.35f03fa9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b18aff93.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b18aff93.js.map",
-    "static/js/2.60820c23.chunk.js": "/static/js/2.60820c23.chunk.js",
-    "static/js/2.60820c23.chunk.js.map": "/static/js/2.60820c23.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.6fee33974660fd446f603793bb38f535.js": "/precache-manifest.6fee33974660fd446f603793bb38f535.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.a6080415.chunk.css.map": "/static/css/main.a6080415.chunk.css.map",
-    "static/js/2.60820c23.chunk.js.LICENSE": "/static/js/2.60820c23.chunk.js.LICENSE"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.b18aff93.js",
-    "static/js/2.60820c23.chunk.js",
-    "static/css/main.a6080415.chunk.css",
-    "static/js/main.35f03fa9.chunk.js"
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:27110a5af294caaca31236f60176cd5bc552c96ea68e477c72d7998ff108c6f2
+size 1027

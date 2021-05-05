@@ -7,7 +7,7 @@ import EmailIcon from '@material-ui/icons/Email';
 
 const useStyles = createUseStyles({
     footer: {
-        fontSize: '18px',
+        fontSize: '24px',
         margin: 'auto',
         display: 'table',
         width: '98%',
@@ -23,7 +23,7 @@ const useStyles = createUseStyles({
         },
     },
     sourceLink: {
-        color: 'white',
+        color: '#CCC',
         padding: '5px',
         '&:hover': {
             color: 'cyan',
@@ -31,6 +31,8 @@ const useStyles = createUseStyles({
     },
     rightAlign: {
         float: "right",
+        fontSize: '14px',
+        color: '#BBB',
     },
 });
 
@@ -51,11 +53,10 @@ export const Footer = () => {
                 <EmailIcon />
             </a>
             <span className={classes.rightAlign}>
-                {'< Website designed and created by Josh Stephens. -'} 
+                {'Website designed and created by Josh Stephens -'} 
                 <a className={classes.sourceLink} href="https://github.com/jawchewa/jawchewa.github.io" rel="noopener noreferrer" target="_blank">
                     {'View Source'}
                 </a>
-                {'>'}
             </span>
         </div>
     );

@@ -14,6 +14,7 @@ const useStyles = createUseStyles({
         fontSize: 30,
         border: '5px solid white',
         margin: '0px',
+        textAlign: 'center',
     },
     slideBody: {
         height: 'auto',
@@ -33,11 +34,12 @@ const useStyles = createUseStyles({
         }
     },
     detailsLink: {
-        color: 'white',
+        color: 'cyan',
         textDecoration: 'underline',
-        '&:hover': {
-            color: 'cyan !important',
-        }
+        fontSize: '20px',
+        paddingTop: '0px',
+        margin: '0px',
+        marginBottom: '10px'
     },
     slideImage: {
         maxWidth: '90%',
@@ -62,8 +64,9 @@ const useStyles = createUseStyles({
     description: {
         color: 'white !important',
         fontSize: '20px',
-        paddingTop: 0,
+        paddingTop: '0px',
         margin: '10px',
+        marginBottom: '0px',
         fontWeight: 'bold',
     },
 });
@@ -119,9 +122,7 @@ export const GameCarousel = () => {
                         <p className={classes.description}>
                             {p.shortText}
                         </p>
-                        <p className={classes.description}>
-                            <span className={classes.detailsLink}>More Details</span>
-                        </p>
+                        <div className={classes.detailsLink}>More Details</div>
                     </a>
                 ) : null)}
             </Slider>

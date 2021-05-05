@@ -6,15 +6,18 @@ const useStyles = createUseStyles({
     title: {
         color: 'white',
         textAlign: 'center',
+        marginBottom: '20px',
+        marginTop: '0px',
     },
     body: {
         margin: '20px',
         fontSize: '24px',
         lineSize: '0px',
-        textAlign: 'center',
     },
     text: {
         margin: '20px',
+        fontSize: '20px',
+        textAlign: 'center'
     },
     link: {
         color: 'cyan',
@@ -22,13 +25,11 @@ const useStyles = createUseStyles({
     },
 });
 
-export const HomePage = ({children}) => {
+export const HomePage = () => {
     const classes = useStyles();
     return (
         <div className={classes.body}>
-            <h3 className={classes.text}>Hello there!</h3>
-            <p className={classes.text}> My name is Josh Stephens. By day, I'm a professional Software Engineer and by night, I'm a hobbyist Game Developer. On this site, you can check out my <a className={classes.link} href="#/portfolio">Portfolio</a>, learn more <a className={classes.link} href="#/about">About Me</a> and how to <a className={classes.link} href="#/contact">Contact Me</a>, or check out my <a className={classes.link} href="/content/Joshua-Stephens-Resume.pdf" rel="noopener noreferrer" target="_blank">Résumé.</a></p>
-            <h2 className={classes.title}>Project Preview</h2>
+            <p className={classes.text}>Hey there, I'm Josh! I'm a Game Developer who specializes in Gameplay Programming and UI Programming. I currently work full time as an Enterprise Software Engineer, but I'm always open to hearing about new opportunities! <br/>If you'd like to see some of my past work, I'd encourage you to check out my Game Development <a className={classes.link} href="#/portfolio">Portfolio</a>.</p>
             <GameCarousel/>
         </div>
     );

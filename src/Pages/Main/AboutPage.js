@@ -51,9 +51,9 @@ export const AboutPage = () => {
             <h2 className={classes.title}>
                 About Me
             </h2>
-            <h3 className={classes.text}>Hello World! Nice to meet you!</h3>
-            <p className={classes.text}>My name is Josh Stephens, also commonly known online under the username, <code>"Jawchewa"</code>. During the day, I work a professional Software Engineer, spending my days building software, web pages and APIs. But during my freetime, I transform into a hobbyist game developer and game modder.</p>
-            <p className={classes.text}>I've always been fascinated by computers and video games. I was so intrigued about how they worked that when I was a teenager, I started teaching myself everything I could about programming and game deveolopment, so I could build my own games and applications. Since then I've gone through college to level up my skills and obtained a degree in Sofware and Game Development, and since then, I have gone on to start a career as a professional Sofware Engineer.</p>
+            <h3 className={classes.text}>Hello World!</h3>
+            <p className={classes.text}>My name is Josh Stephens, also known online under the username, <code>"Jawchewa"</code>. During the day, I work a professional Software Engineer, spending my days building software, web pages and APIs. But in my freetime, I like to work as a hobbyist game developer and game modder.</p>
+            <p className={classes.text}>Ever since I was young, I've been fascinated by computers and video games. As a teenager, my curiosity got the better of me, and I started teaching myself everything I could about programming and game development. I've gone through college to level up my skills and obtained a Bachelor's Degree in Sofware and Game Development, and since then, I've gone on to start my career as a professional Sofware Engineer.</p>
             <h3 className={classes.skills}>Skills</h3>
             <Grid container spacing={0} className={classes.table}>
                 <Grid item xs={12} md={4} className={classes.cell}>

@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Tap Shot",
+        "icon": "/content/images/games/tapshot/TapShotIcon.png",
+        "previewImage": "/content/images/games/tapshot/TapShot.mp4",
+        "url": "#/games/tap-shot",
+        "shortText": "Tap Shot is a single button arcade shooter combined with a modern mobile-friendly design."
+    },
+    {
+        "name": "Robo Repair",
+        "icon": "/content/images/games/robo-repair/robo-repair-icon.png",
+        "previewImage": "/content/images/games/robo-repair/RoboRepair.mp4",
+        "url": "#/games/robo-repair",
+        "shortText": "Robo Repair is an action platformer where a robot who crash landed into an alien factory must track down the missing part needed to repair his companion."
+    },
+    {
+        "name": "Grave Guardian",
+        "icon": "/content/images/games/grave-guardian/icon.png",
+        "previewImage": "/content/images/games/grave-guardian/GraveGuardian.mp4",
+        "url": "#/games/grave-guardian",
+        "shortText": "Grave guardian is a stealth adventure game about a pacifist ghost on a mission to confront the evil necromancer without resorting to violence."
+    },
+    {
+        "name": "Holo Defender",
+        "icon": "/content/images/games/holo-defender/icon.png",
+        "previewImage": "/content/images/games/holo-defender/HoloDefender.mp4",
+        "url": "#/games/holo-defender",
+        "shortText": "Holo Defender is an arcade tower defense where you strategically purchase towers to stop the hoard of menacing robots."
+    },
+    {
+        "name": "Burst Fighters",
+        "icon": "/content/images/games/burst-fighters/icon.png",
+        "previewImage": "/content/images/games/burst-fighters/BurstFighters.mp4",
+        "url": "#/games/burst-fighters",
+        "shortText": "Burst Fighters is a physics-based RPG where you collect powerful coin warriors to help you on an epic fantasy adventure."
+    },
+    {
+        "name": "Cake Walk",
+        "icon": "/content/images/games/cake-walk/icon.png",
+        "previewImage": "/content/images/games/cake-walk/CakeWalk.mp4",
+        "url": "#/games/cake-walk",
+        "shortText": "Cake Walk is an puzzle platformer about Vanilla the Time Witch on a quest to recover her stolen cake from the evil Demon Lord."
+    },
+    {
+        "name": "Rogue Bot",
+        "icon": "/content/images/games/rogue-bot/icon.png",
+        "previewImage": "/content/images/games/rogue-bot/RogueBot.mp4",
+        "url": "#/games/rogue-bot",
+        "shortText": "Rogue Bot is a roguelike shoot-em-up about a rogue robot exploring a dangerous planet and take down enemies using an assortment of weapons."
+    }
+]

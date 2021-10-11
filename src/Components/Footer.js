@@ -1,6 +1,5 @@
 import React from 'react';
-import { createUseStyles } from 'react-jss'
-import TwitterIcon from '@material-ui/icons/Twitter';
+import { createUseStyles } from 'react-jss';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
@@ -42,9 +41,6 @@ export const Footer = () => {
         <div className={classes.footer}>
             <a className={classes.link} href="https://www.linkedin.com/in/j-stephens/" rel="noopener noreferrer" target="_blank">
                 <LinkedInIcon />
-            </a>
-            <a className={classes.link} href="https://twitter.com/Jawchewa" rel="noopener noreferrer" target="_blank">
-                <TwitterIcon />
             </a>
             <a className={classes.link} href="https://github.com/jawchewa" rel="noopener noreferrer" target="_blank">
                 <GitHubIcon />
